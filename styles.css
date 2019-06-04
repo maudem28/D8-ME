@@ -1,0 +1,47 @@
+h1 {
+  color: black;
+  border: 10px dotted yellow;
+  border-radius: 12px;
+  font-size: 30px;
+  font-family: helvetica;
+  text-align: center;
+  text-shadow: 0 0 10px #ffff00;
+}
+h2 {
+  font-family: helvetica;
+  font-size: 18px;
+  text-align: center;
+  }
+p {
+  color: gray;
+  font-family: helvetica;
+  text-align: center;
+}
+ol {
+  font-family: helvetica;
+  list-style: none;
+  padding: 0;
+}
+ul {
+  font-family: helvetica;
+  padding-left: 30px;
+  margin-bottom: 10%;
+}
+.test {
+  color: #FFA500;
+}
+.padding {
+  padding-right: 50%;
+  padding-left: 10%;
+}
+.nice-link:hover {
+  color: pink;
+  transition
+}
+img.a {
+  vertical-align: middle;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 130px;
+  padding: 20px;
+}
