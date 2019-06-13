@@ -1,0 +1,90 @@
+.body {
+  background-image: src="images/burger.jpg";
+}
+h1 {
+  color: black;
+  border: 10px dotted yellow;
+  border-radius: 12px;
+  font-size: 30px;
+  font-family: courier;
+  text-align: center;
+  text-shadow: 0 0 10px #ffff00;
+}
+h2 {
+  font-family: courier;
+  font-size: 18px;
+  text-align: center;
+}
+h3 {
+  font-family: courier;
+  font-size: 18px;
+  text-align: center;
+}
+p {
+  color: gray;
+  font-family: courier;
+  text-align: center;
+  padding-left: 20px;
+}
+
+ol {
+  font-family: courier;
+  list-style: none;
+  padding: 0;
+}
+ul {
+  font-family: courier;
+  padding-left: 30px;
+  margin-bottom: 10%;
+}
+img {
+    vertical-align: middle;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 130px;
+    padding: 20px;
+  }
+  button {
+      padding: 10px;
+      padding-bottom: 2px;
+      background-color: deepPink;
+      margin: 10px;
+      color: white;
+      cursor: pointer;
+      display: inline-block;
+      margin-top: 11px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      position: relative;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      border: 0px;
+      font-size: 45px;
+      font-weight: normal;
+      font-family: 'Smash', serif;
+      outline: 0px;
+  }
+.test {
+  color: #FFA500;
+}
+.padding {
+  padding-right: 50%;
+  padding-left: 10%;
+}
+.nice-link:hover {
+  color: pink;
+  transition
+}
+
+.navbar-text
+.navbar {
+  font-family: courier;
+  background-color: yellow;
+}
+.btn {
+  font-size: 50px;
+}
