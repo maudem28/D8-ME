@@ -1,39 +1,38 @@
-.body {
-  background-image: src="images/burger.jpg";
+body {
+  background-image src: "images/burger.jpg");
 }
 h1 {
   color: black;
-  border: 10px dotted yellow;
-  border-radius: 12px;
+  border:
+  border-radius:
   font-size: 30px;
-  font-family: courier;
+  font-family: helvetica;
   text-align: center;
-  text-shadow: 0 0 10px #ffff00;
 }
 h2 {
-  font-family: courier;
+  font-family: helvetica;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 h3 {
-  font-family: courier;
+  font-family: helvetica;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 p {
   color: gray;
-  font-family: courier;
+  font-family: helvetica;
   text-align: center;
-  padding-left: 20px;
+  padding-left: ;
 }
 
 ol {
-  font-family: courier;
+  font-family: helvetica;
   list-style: none;
   padding: 0;
 }
 ul {
-  font-family: courier;
+  font-family: helvetica;
   padding-left: 30px;
   margin-bottom: 10%;
 }
@@ -44,10 +43,10 @@ img {
     border-radius: 130px;
     padding: 20px;
   }
-  button {
+.btn {
       padding: 10px;
       padding-bottom: 2px;
-      background-color: deepPink;
+      background-color: pink;
       margin: 10px;
       color: white;
       cursor: pointer;
@@ -56,17 +55,20 @@ img {
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       position: relative;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
       user-select: none;
       border: 0px;
       font-size: 45px;
       font-weight: normal;
-      font-family: 'Smash', serif;
+      font-family: helvetica,
       outline: 0px;
+      text-align: center;
+  }
+button {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 20px;
+    border: 10px yellow;
+    border-radius: 12px;
   }
 .test {
   color: #FFA500;
@@ -79,10 +81,9 @@ img {
   color: pink;
   transition
 }
-
 .navbar-text
 .navbar {
-  font-family: courier;
+  font-family: helvetica;
   background-color: yellow;
 }
 .btn {
