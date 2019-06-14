@@ -6,9 +6,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Contact Us</title>
+    <title>contact</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type=text/css href="css/styles.css">
 
     <!-- Custom styles for this template -->
 
@@ -17,77 +18,73 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="/Users/lydiamaude/Coding course/our-site/index.html">D8 ME</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- Navbar -->
 
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="/Users/lydiamaude/Coding course/our-site/index.html">D8 ME</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Find me a date!</a>
-          </li>
-          <li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Info
-           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-             <a class="dropdown-item" href="#">About</a>
-             <a class="dropdown-item" href="#">Contact us</a>
-       </div>
-     </li>
-     </ul>
-    </nav>
-
-    <img src="images/jammie.jpg" class="img-fluid" alt="Responsive image">
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/Users/lydiamaude/Coding course/our-site/index.html">home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">the d8</a>
+        </li>
+        <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           info
+         </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="/Users/lydiamaude/Coding course/our-site/about.html">about</a>
+           <a class="dropdown-item" href="/Users/lydiamaude/Coding course/our-site/contact-us.html">contact us</a>
+     </div>
+   </li>
+   </ul>
+  </nav>
 
     <main role="main" class="container">
 
-      <div class="starter-template">
-        <h3>We are all taking part in the Code First: Girls course and this is our final project.</h3>
-        <p class="lead">We wanted to create something that would be fun and useful, while still trying to look good.<br> <a href="https://www.w3schools.com/html/">Contact us to find out more.</a>
-</p>
+    <!-- Input form -->
+      <div>
+        <h3>if you want to know more about who we are or what we're doing, drop us a request down below and we'll get back to you!</h3>
       </div>
 
-      <!-- Button trigger modal -->
-      <p class="modal-button-container">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-          Click me
-        </button>
-      </p>
+<!-- input form -->
+    <form>
+       <div class=form-group>
+         <input type="email" placeholder="enter your email">
+       </div>
+       <div class="form-group">
+         <input type="text" placeholder="ask us anything">
+         </div>
+         <!-- Button trigger modal -->
+         <p class="modal-button-container">
+           <button type="submit" class="btn btn-submit" data-toggle="modal" data-target="#exampleModal">
+             SUBMIT
+           </button>
+         </p>
 
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Are u sure ur done?</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              You are the winner of £100,000,000
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Yes thanks</button>
-              <button type="button" class="btn btn-primary">Give me another d8!</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    <p>
-      Lydia, Kristina and Lana!
-    </p>
-
-        </div>
-      </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">thank you for your submission!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                we'll aim to get back to you within 3 working days.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">thank you!</button>
+              </div>
+     </form>
 
 
     </main><!-- /.container -->
