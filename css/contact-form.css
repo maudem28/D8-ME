@@ -24,6 +24,9 @@
 	display:block;
 	margin-bottom:5px;
 	padding:5px;
+	border-radius:8px;
+	border:black;
+	border-width:1px;
 }
 .button:hover {
 	background-color:gray;
@@ -40,3 +43,11 @@
 	font-style:italic;
 	font-size:12px;	
 }
+
+
+.block img {
+	height:60px;
+	width:60px;
+	margin:20px 20px;
+}
+
