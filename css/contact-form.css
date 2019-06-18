@@ -1,0 +1,36 @@
+
+
+.block {
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+	margin:auto;
+	font-family: arial, helvetica, sans-serif;
+	font-size:20px;
+	padding:20px;
+	font-weight:normal;
+	font-style:bold;
+	text-align:center;
+}
+.block h1 h2{
+	font-size:40px;
+	text-decoration:underline;
+
+}
+.clr{
+ 	clear:both;
+}
+.my-form {
+	display:block;
+	margin-bottom:5px;
+	padding:5px;
+}
+.button:hover {
+	background-color:gray;
+	color:white;
+}
+.footer {
+	text-align:center;
+	font-style:italic;
+	font-size:12px;	
+}
