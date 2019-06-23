@@ -1,20 +1,30 @@
 
-
+body {
+  background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/1JMLWSY55C.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-top:100px;
+}
 .block {
 	float:left;
 	width:50%;
 	box-sizing:border-box;
 	margin:auto;
-	font-family: arial, helvetica, sans-serif;
+	font-family: helvetica;
 	font-size:20px;
 	padding:20px;
 	font-weight:normal;
 	font-style:bold;
 	text-align:center;
+	color:white;
+
 }
 .block h1 h2{
 	font-size:40px;
 	text-decoration:underline;
+	font-style:italic;
 
 }
 .clr{
@@ -24,10 +34,13 @@
 	display:block;
 	margin-bottom:5px;
 	padding:5px;
-	border-radius:8px;
 	border:black;
 	border-width:1px;
 }
+.my-form textarea {
+	width: 42%;
+}
+
 .button:hover {
 	background-color:gray;
 	color:white;
@@ -37,17 +50,26 @@
 	border-color:black;
 	color:4d4d4d;
 	border-width:1px;
+	font-family: helvetica;
 }
 .footer {
 	text-align:center;
 	font-style:italic;
-	font-size:12px;	
+	font-size:16px;
+	color: white;
 }
-
-
 .block img {
 	height:60px;
 	width:60px;
 	margin:20px 20px;
+}
+.block img:hover {
+	opacity: 0.7;
+}
+@media (max-width:600px){
+	.block {
+		width:100%;
+		float:none;
+	}
 }
 
