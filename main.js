@@ -1,52 +1,33 @@
-function uselessWebButton(button, popup) {
-	// UI elements
-	var buttonElement = button;
-	var popupElement = popup;
+<script type="text/javascript">
+function randomlinks(){
+    var myrandom=Math.round(Math.random()*4)
+    var links=new Array()
+    links[0]="https://www.delish.com/cooking/recipe-ideas/a19665622/easy-chicken-fajitas-recipe/";
+    links[1]="https://www.delish.com/cooking/recipe-ideas/a26091626/easy-calzone-recipe/";
+    links[2]="https://www.delish.com/cooking/recipe-ideas/recipes/a55661/easy-crockpot-chicken-noodle-soup-recipe/";
+    links[3]="https://www.delish.com/cooking/recipe-ideas/recipes/a49800/sloppy-joe-grilled-cheese-recipe/";
+    links[4]="https://www.delish.com/cooking/recipe-ideas/recipes/a55501/best-goulash-recipe/";
 
-	var initialClick = false;
-	var randomRange = 15;
-
-	// Useless websites: url | uses flash
-	// Commented out websites which have crashed.
-	var sitesList = [
-
-	var sites = null;
-
-	// Prepares and binds the button
-	var init = function() {
-		button.onclick = onButtonClick;
-		sites = sitesList.slice(0);
-	};
-
-	// Selects and removes the next website from the list
-	var selectWebsite = function() {
-		var site, range, index;
-
-		range = randomRange > sites.length ? sites.length : randomRange;
-		index = Math.floor(Math.random() * range);
-
-		site = sites[index];
-		sites.splice(index, 1);
-
-		return site;
-	};
-
-	var onButtonClick = function() {
-		// Change text from "TO A"
-		if (initialClick === false) {
-			document.getElementById("joint").innerHTML = "TO ANOTHER";
-			initialClick = true;
-		}
-
-		var url = selectWebsite()[0];
-		window.open(url);
-
-		// User has visited ALL the sites... refresh the list.
-		if (sites.length == 0) {
-			sites = sitesList.slice(0);
-		}
-
-	};
-
-	init();
+    window.location=links[myrandom]
 }
+</script>
+<form>
+<input type="button" value="FOOD" onClick="randomlinks()">
+</form>
+
+<script type="text/javascript">
+function randomlinks(){
+    var myrandom=Math.round(Math.random()*4)
+    var links=new Array()
+    links[0]="https://open.spotify.com/playlist/37i9dQZF1DX5Ozry5U6G0d";
+    links[1]="https://open.spotify.com/playlist/37i9dQZF1DWZg863fGtALu";
+    links[2]="https://open.spotify.com/playlist/4UiM5IjpEO4sOnxD9hork2";
+    links[3]="https://open.spotify.com/playlist/37i9dQZF1DX7rOY2tZUw1k";
+    links[4]="https://open.spotify.com/playlist/37i9dQZF1DWWCAjkSJsi1g?si=o43WtheXRrymUOiwnUZY3w";
+
+    window.location=links[myrandom]
+}
+</script>
+<form>
+<input type="button" value="MUSIC" onClick="randomlinks()">
+</form>
