@@ -1,20 +1,27 @@
-
-
+body {
+	background-color:#2DB3BE;
+}
+.back-image {
+	width:100%;
+}
 .block {
 	float:left;
 	width:50%;
 	box-sizing:border-box;
 	margin:auto;
-	font-family: arial, helvetica, sans-serif;
+	font-family: helvetica;
 	font-size:20px;
 	padding:20px;
 	font-weight:normal;
 	font-style:bold;
 	text-align:center;
+	color:black;
+
 }
-.block h1 h2{
+ h1 {
 	font-size:40px;
 	text-decoration:underline;
+	font-style:italic;
 
 }
 .clr{
@@ -24,13 +31,45 @@
 	display:block;
 	margin-bottom:5px;
 	padding:5px;
+	border:black;
+	border-width:1px;
+
+	
 }
+.my-form textarea,.my-form input {
+	width: 42%;
+	background-color:#B9EEF2;
+	border-radius:6px;
+}
+
 .button:hover {
 	background-color:gray;
 	color:white;
 }
+.button {
+	border-radius:8px;
+	border-color:black;
+	color:4d4d4d;
+	border-width:1px;
+	font-family: helvetica;
+}
 .footer {
 	text-align:center;
 	font-style:italic;
-	font-size:12px;	
+	font-size:16px;
+	color: black;
+}
+.block img {
+	height:60px;
+	width:60px;
+	margin:20px 20px;
+}
+.block img:hover {
+	opacity: 0.7;
+}
+@media (max-width:600px){
+	.block {
+		width:100%;
+		float:none;
+	}
 }
