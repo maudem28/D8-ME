@@ -1,6 +1,9 @@
-
-
-
+body {
+	background-color:#2DB3BE;
+}
+.back-image {
+	width:100%;
+}
 .block {
 	float:left;
 	width:50%;
@@ -15,7 +18,7 @@
 	color:black;
 
 }
-.block h1 h2{
+ h1 {
 	font-size:40px;
 	text-decoration:underline;
 	font-style:italic;
@@ -30,9 +33,13 @@
 	padding:5px;
 	border:black;
 	border-width:1px;
+
+	
 }
-.my-form textarea {
+.my-form textarea,.my-form input {
 	width: 42%;
+	background-color:#B9EEF2;
+	border-radius:6px;
 }
 
 .button:hover {
@@ -66,4 +73,3 @@
 		float:none;
 	}
 }
-
