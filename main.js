@@ -1,4 +1,3 @@
-<script type="text/javascript">
 function randomlinks(){
     var myrandom=Math.round(Math.random()*4)
     var links=new Array()
@@ -10,13 +9,18 @@ function randomlinks(){
 
     window.location=links[myrandom]
 }
-</script>
-<form>
-<input type="button" value="FOOD" onClick="randomlinks()">
-</form>
+function randomlinks2(){
+    var myrandom=Math.round(Math.random()*4)
+    var links=new Array()
+    links[0]="https://www.socialandcocktail.co.uk/cocktails/white-russian-recipe/";
+    links[1]="https://www.socialandcocktail.co.uk/cocktails/bloody-mary/";
+    links[2]="https://www.socialandcocktail.co.uk/cocktails/espresso-martini/";
+    links[3]="https://www.socialandcocktail.co.uk/cocktails/screwdriver/";
+    links[4]="https://www.socialandcocktail.co.uk/cocktails/raspberry-daiquiri/";
 
-<script type="text/javascript">
-function randomlinks(){
+    window.location=links[myrandom]
+}
+function randomlinks3(){
     var myrandom=Math.round(Math.random()*4)
     var links=new Array()
     links[0]="https://open.spotify.com/playlist/37i9dQZF1DX5Ozry5U6G0d";
@@ -27,7 +31,3 @@ function randomlinks(){
 
     window.location=links[myrandom]
 }
-</script>
-<form>
-<input type="button" value="MUSIC" onClick="randomlinks()">
-</form>

@@ -8,13 +8,11 @@
 
     <title>D8 ME</title>
 
-
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" type=text/css href="css/d8-me.css">
 
-    <script src="D8-ME/main.js">
+    <script src="main.js"></script>
 
   </head>
 
@@ -52,10 +50,31 @@
       <h3> click below to find your perfect D8! </h3>
       <br>
       <!-- Button-->
-      <input type="button" value="FOOD" onclick="randomlinks()"> ==$0
-      <a href="FOOD" class="food" role="button" aria-pressed="true">FOOD</a>
-      <a href="DRINK" class="drink" role="button" aria-pressed="true">DRINK </a>
-      <a href="MUSIC" class="music" role="button" aria-pressed="true">MUSIC </a>
+      <script type="text/javascript">
+        function randomlinks(){
+        <form>
+          <input type="button" class="btn btn-primary btn-lg active" value="FOOD" onclick="randomlinks()" target="_blank">}
+        </form>
+      </script>
+
+      <script type="text/javascript">
+        function randomlinks2(){
+        <form>
+          <input type="button" class="btn btn-primary btn-lg active" value="DRINK" onclick="randomlinks2() target="_blank">
+        </form>
+      </script>
+
+      <script type="text/javascript">
+        function randomlinks3(){
+        <form>
+          <input type="button" class="btn btn-primary btn-lg active" value="MUSIC" onclick="randomlinks3() target="_blank">
+        </form>
+      </script>
+
+       <input type="button" class="btn btn-primary btn-lg active" value="FOOD" onclick="randomlinks()">
+       <input type="button" class="btn btn-primary btn-lg active" value="DRINK" onclick="randomlinks2()">
+       <input type="button" class="btn btn-primary btn-lg active" value="MUSIC" onclick="randomlinks3()">
+
 
     </main><!-- /.container -->
 

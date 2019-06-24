@@ -47,6 +47,9 @@ p {
   text-align: center;
   font-size: 15px;
 }
+button {
+  color: pink;
+}
 .starter-template {
   border-radius: 20px;
 }
