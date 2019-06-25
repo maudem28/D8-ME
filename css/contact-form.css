@@ -1,27 +1,47 @@
+html {
+  background-image: url(../images/nightclub.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+ 
+}
+
 body {
-	background-color:#2DB3BE;
+	background:transparent;
+	margin-left:30px;
+	margin-right:30px;
 }
-.back-image {
-	width:100%;
+
+.block {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+
 }
+
 .block {
 	float:left;
 	width:50%;
 	box-sizing:border-box;
 	margin:auto;
 	font-family: helvetica;
-	font-size:20px;
+	font-size:16px;
 	padding:20px;
 	font-weight:normal;
 	font-style:bold;
 	text-align:center;
 	color:black;
+	margin-top:100px;
+
 
 }
  h1 {
-	font-size:40px;
-	text-decoration:underline;
-	font-style:italic;
+	font-size:24px;
 
 }
 .clr{
@@ -33,14 +53,8 @@ body {
 	padding:5px;
 	border:black;
 	border-width:1px;
+}
 
-	
-}
-.my-form textarea,.my-form input {
-	width: 42%;
-	background-color:#B9EEF2;
-	border-radius:6px;
-}
 
 .button:hover {
 	background-color:gray;
@@ -57,8 +71,10 @@ body {
 	text-align:center;
 	font-style:italic;
 	font-size:16px;
-	color: black;
+	color: white;
+	
 }
+
 .block img {
 	height:60px;
 	width:60px;
@@ -71,5 +87,20 @@ body {
 	.block {
 		width:100%;
 		float:none;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
+		background-color: rgba(255, 255, 255, 0.8);
+		border-radius: 20px;
 	}
+	html {
+		background-image: url(../images/nightclub.jpg);
+  		background-repeat: repeat-y;
+  		height: 100%;
+  		width:100%;
+  		background-size: cover;
+  		background-position: center;
+	}
+
 }
