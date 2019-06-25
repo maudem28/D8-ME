@@ -15,12 +15,13 @@ main {
   padding-right; 50px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
+  margin-top: 10px;
 }
 body {
   background: transparent;
-  padding-top: 25%;
   text-align: center;
   border-radius: 30px;
+  margin-top: 20%;
 }
 h1 {
   color: black;
@@ -46,6 +47,9 @@ p {
   font-family: helvetica;
   text-align: center;
   font-size: 15px;
+}
+button {
+  color: pink;
 }
 .starter-template {
   border-radius: 20px;
