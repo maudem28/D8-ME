@@ -8,7 +8,7 @@ html {
   background-size: cover;
   background-position: center;
 }
-main {
+.container {
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
