@@ -46,6 +46,31 @@ p {
   font-family: helvetica;
   text-align: center;
   font-size: 15px;
+
+}
+
+  .about-us {
+
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .lead {
+        color: black;
+        font-family: helvetica;
+        text-align: center;
+        font-size: 15px;
+  }
+  .heading {
+    border-radius: 20px;
+    text-shadow: 5px;
+    font: impact;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+  }
 }
 .starter-template {
   border-radius: 20px;
@@ -54,7 +79,10 @@ p {
   padding-right: 50%;
   padding-left: 10%;
 }
-.nice-link:hover {
+#linked {
   color: pink;
-  transition
+  font-size: 20px;
+
+
+
 }
