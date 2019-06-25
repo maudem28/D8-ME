@@ -16,6 +16,9 @@ main {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
 }
+.container {
+  padding-top: 50px;
+}
 body {
   background: transparent;
   padding-top: 25%;
@@ -49,10 +52,6 @@ p {
 }
 .starter-template {
   border-radius: 20px;
-}
-.padding {
-  padding-right: 50%;
-  padding-left: 10%;
 }
 .nice-link:hover {
   color: pink;

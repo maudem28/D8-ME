@@ -7,7 +7,7 @@ function randomlinks(){
     links[3]="https://www.delish.com/cooking/recipe-ideas/recipes/a49800/sloppy-joe-grilled-cheese-recipe/";
     links[4]="https://www.delish.com/cooking/recipe-ideas/recipes/a55501/best-goulash-recipe/";
 
-    window.location=links[myrandom]
+    window.open(links[myrandom]);
 }
 function randomlinks2(){
     var myrandom=Math.round(Math.random()*4)
@@ -18,7 +18,7 @@ function randomlinks2(){
     links[3]="https://www.socialandcocktail.co.uk/cocktails/screwdriver/";
     links[4]="https://www.socialandcocktail.co.uk/cocktails/raspberry-daiquiri/";
 
-    window.location=links[myrandom]
+    window.open(links[myrandom]);
 }
 function randomlinks3(){
     var myrandom=Math.round(Math.random()*4)
@@ -29,5 +29,5 @@ function randomlinks3(){
     links[3]="https://open.spotify.com/playlist/37i9dQZF1DX7rOY2tZUw1k";
     links[4]="https://open.spotify.com/playlist/37i9dQZF1DWWCAjkSJsi1g?si=o43WtheXRrymUOiwnUZY3w";
 
-    window.location=links[myrandom]
+    window.open(links[myrandom]);
 }
