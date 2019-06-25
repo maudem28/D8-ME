@@ -12,16 +12,13 @@ main {
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
-  padding-right; 50px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
-}
-.container {
-  padding-top: 50px;
+  margin-top: 10%;
 }
 body {
   background: transparent;
-  padding-top: 25%;
+  vertical-align: middle;
   text-align: center;
   border-radius: 30px;
 }
@@ -49,9 +46,6 @@ p {
   font-family: helvetica;
   text-align: center;
   font-size: 15px;
-}
-.starter-template {
-  border-radius: 20px;
 }
 .nice-link:hover {
   color: pink;
